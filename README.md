@@ -55,6 +55,10 @@ When user clicks 'Deposit' and 'Withdraw on the Modal, take user to /deposit.php
 
 Finish footer (Pages for each item) and add footer to every page
 
+Fix resizing issue (chat doesnt resize, hence why if you zoom in too much, the chat covers the screen. Hiding/remove the chat menu doesnt do this)
+
+Make the 'X button' to close and open the chat function
+
 Switch Pricing API
 
 # Features
