@@ -59,6 +59,8 @@ Fix resizing issue (chat doesnt resize, hence why if you zoom in too much, the c
 
 Make the 'X button' to close and open the chat function
 
+There are some more improvements that also need to be done - I just cant remember. When I do, I will update this list accordingly.
+
 Switch Pricing API
 
 # Features
