@@ -71,7 +71,7 @@ Switch Pricing API
 
 ![](https://i.imgur.com/KQOTVPg.png)
 
-**Other Features (Image Album)](https://imgur.com/a/OSRTf)**
+**[Other Features (Image Album)](https://imgur.com/a/OSRTf)**
 
 # Admin Panel
 **Staff Page**
