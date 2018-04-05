@@ -9,11 +9,13 @@ CSGO / Steam Roulette Site created with PHP and Node JS, using the Material Desi
 
 2. Upload the database
 
-2. Input your details in 'config.php'
+2. Input your details in 'config.php' (dont forget the steam api key)
 
 3. Input your details in 'site.js'
 
 4. Input your details in '/js/roulette.js' (Enter your Domain or Server IP)
+
+5. Input your details in steamauth/SteamConfig.php
 
 5. In the console goto the 'site.js directory and input this command
    > node site.js
