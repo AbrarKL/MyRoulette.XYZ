@@ -1,0 +1,70 @@
+body.dark {
+    background-color: #303030;
+    color: #e0e0e0;
+}
+
+body.dark .collapsible-header {
+    background-color: #303030;
+    border-bottom: #2c2c2c 1px solid;
+}
+
+body.dark .collapsible-body {
+    background-color: #303030;
+    border-bottom: 1px solid #303030;
+}
+
+.card-panel, .card {
+    background-color: #424242;
+}
+
+.radial-progress .inset {
+    background-color: #424242;
+}
+
+#nav-chat .discussion {
+    background-color: #303030;
+}
+
+#nav-chat .messages {
+    background-color: #424242;
+}
+
+body.dark .modal, body.dark .modal-footer {
+    background-color: #353535 !important;
+}
+
+body.dark .modal-footer {
+    border-top: #303030 1px solid !important;
+}
+
+body.dark .modal-footer .btn-flat {
+    color: #e0e0e0 !important;
+}
+
+.tabs {
+    background-color: #424242;
+}
+
+.tab a {
+    color: #e0e0e0 !important;
+}
+
+body.dark .dropdown-content {
+    background-color: #424242;
+}
+
+body.dark .dropdown-content .divider {
+    background-color: #303030;
+}
+
+body.dark .dropdown-content li:hover {
+    background-color: #616161;
+}
+
+body.dark .dropdown-content li.active {
+    background-color: #616161;
+}
+
+table.striped > tbody > tr:nth-child(2n+1) {
+    background-color: #616161;
+}

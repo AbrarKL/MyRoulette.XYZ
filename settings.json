@@ -1,0 +1,15 @@
+{
+  "siteName": "MyRoulette.xyz Admin Demo",
+  "rouletteTimer": 20,
+  "minimumBet": 0,
+  "maximumBet": 1000,
+  "maxDepositItems": 10,
+  "maxBets": 3,
+  "itemMarkup": 5,
+  "chatDelay": 2,
+  "publicSiteKey": "FILLIN",
+  "giveawayText": "",
+  "giveawayLink": "https://gleam.io/",
+  "refferalBonus": 0.5,
+  "refferalReward": 1
+}

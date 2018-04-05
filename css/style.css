@@ -1,0 +1,156 @@
+body {
+  background-color: #FFF;
+}
+
+#case {
+  max-width: 1050px;
+  height: 69px;
+  background-image: url(/img/cases.png);
+  position: relative;
+  margin: 0px auto;
+  margin-top: -2%;
+}
+
+body.dark .card-panel {
+  background-color: #353535;
+}
+
+#nav-chat .discussion {
+  background-color: #e5e5e5;
+}
+
+body.dark #nav-chat .discussion {
+  background-color: #303030;
+}
+
+#nav-chat .messages {
+  background-color: white;
+  color: #000;
+}
+
+body.dark #nav-chat .messages {
+  background-color: #353535;
+  color: #e0e0e0;
+}
+
+#nav-chat .self .messages::before {
+  border-color: #FFF transparent transparent #FFF;
+}
+
+body.dark #nav-chat .self .messages::before {
+  border-color: #353535 transparent transparent #353535;
+}
+
+#nav-chat .other .messages::before {
+  border-color: #FFF #FFF transparent transparent;
+}
+
+body.dark #nav-chat .other .messages::before {
+  border-color: #353535 #353535 transparent transparent;
+}
+
+#text {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+body.dark #text {
+  color: #e0e0e0;
+}
+
+#mod-rank-select {
+  background-color: #e5e5e5;
+  border-style: none;
+  margin-top: 10px;
+}
+
+body.dark #mod-rank-select {
+  background-color: #353535;
+  border-style: none;
+  margin-top: 10px;
+}
+
+.btn.red {
+    width: 30%;
+    margin-left: 1.8%;
+    background-color: #ba554a !important;
+    color: #fff !important;
+}
+
+.btn.green {
+    width: 30%;
+    margin-left: 3%;
+    background-color: #73b970 !important;
+    color: #fff !important;
+}
+
+.btn.black {
+    width: 30%;
+    margin-left: 3%;
+    background-color: #4c4c4c !important;
+    color: #fff !important;
+}
+
+#pointer {
+  width: 3px;
+  background: #fe5eff;
+ /* ff0 yellow */
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  height: 100%;
+}
+
+.ball {
+    color: white;
+    cursor: default;
+    border-radius: 45px;
+    border: 1px solid transparent;
+    width: 45px;
+    height: 45px;
+    background-color: #000;
+    font-size: 17px;
+    line-height: 45px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    margin: 1px;
+}
+
+.ball-0 {
+    background-color: #6fb26b;
+    border: 0px !important;
+}
+
+.ball-1 {
+    background-color: #b04a43;
+    border: 0px !important;
+}
+
+.ball-8 {
+    background: #454545;
+    border: 0px !important;
+}
+
+.redbet {
+    width: 28%;
+    margin-left: 2.6%;
+    display: inline-block;
+    vertical-align: text-top;
+    color: #ba554a;
+}
+
+.greenbet {
+    color: #72ba6f;
+    width: 28%;
+    margin-left: 5.6%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.blackbet {
+    width: 28%;
+    margin-left: 5.6%;
+    display: inline-block;
+    vertical-align: text-top;
+    color: #4c4c4c;
+}

@@ -1,0 +1,260 @@
+#roulette {
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 140px;
+  white-space: nowrap;
+  width: 87.49%;
+}
+
+#roulette .wheel {
+  margin-top: 40px;
+}
+
+#nav-chat {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 0;
+  height: 100%;
+}
+
+.users-online {
+  font-weight: 500;
+}
+
+.discussion {
+  list-style: none;
+  background: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+
+.discussion.wrapper {
+  flex: 2;
+  overflow: auto;
+}
+
+.discussion.input {
+  min-height: 70px;
+  width: 350px;
+}
+
+.discussion li {
+  padding: 0.5rem;
+  overflow: hidden;
+  display: flex;
+}
+
+.discussion li:hover {
+  background: none;
+}
+
+.discussion .avatar {
+  width: 40px;
+  position: relative;
+}
+
+.discussion .avatar a {
+  padding: 0;
+}
+
+.discussion .avatar img {
+  display: block;
+  width: 100%;
+}
+
+.discussion .avatar img.circle {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.discussion .avatar img.send {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.other .messages {
+  margin-left: 10px;
+}
+
+.other .messages:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 0;
+  height: 0;
+  border: 5px solid white;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.self {
+  justify-content: flex-end;
+}
+
+.self .messages {
+  order: 1;
+  margin-right: 10px;
+}
+
+.self .avatar {
+  order: 2;
+}
+
+.self .messages:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -9px;
+  width: 0;
+  height: 0;
+  border: 5px solid white;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.messages {
+  position: relative;
+  display: block;
+  background: white;
+  padding: 10px;
+  border-radius: 2px;
+  word-wrap: break-word;
+}
+
+.messages h1 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  max-width: 264px;
+}
+
+.messages p {
+  font-size: 1em;
+  margin: 0 0 -3px;
+  max-width: 264px;
+}
+
+.messages time {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.messages textarea {
+  padding: 0;
+  margin: 0;
+  height: 0;
+  min-height: 1.7rem;
+  border-bottom: none;
+}
+
+.self.input .messages {
+  width: 100%;
+}
+
+.inventory .row {
+  margin: 4px 0 0 4px;
+}
+
+.item-container {
+  float: left;
+  margin: 2px !important;
+  height: 95px;
+  width: 95px;
+}
+
+.item {
+  cursor: pointer;
+  margin-bottom: 4px;
+  overflow: hidden;
+  height: 95px;
+  width: 95px;
+  position: relative;
+  background-color: #b0c3d9;
+}
+
+.item .helper, .deposit-item-container .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.item-container.selected {
+  opacity: 0.5;
+}
+
+.inventory-failed {
+  padding: 10px;
+}
+
+.item .price {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 0.8em;
+  padding: 2px 5px;
+}
+
+.deposit-item-container .price {
+  position: absolute;
+  bottom: 5px;
+  font-size: 0.8em;
+  padding: 2px 5px;
+}
+
+.loading-text {
+  display: none;
+}
+
+.spinner-container {
+  display: none;
+  z-index: 1;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  padding: 35px;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+  transition: transform 8000ms cubic-bezier(0.17, 0.67, 0.12, 0.99) 0s;
+}
+
+.spinner-container img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin: -25px;
+}
+
+.circle .pointer {
+  position: relative;
+  z-index: 2;
+}
+
+.circle .pointer i {
+  position: absolute;
+  left: 50%;
+  margin-left: -18px;
+  z-index: 1;
+  top: 50px;
+  font-size: 36px;
+}
+
+.circle .pointer span {
+  position: absolute;
+  left: 50%;
+  margin-left: -23px;
+  z-index: 1;
+  top: 75px;
+  font-size: 12px;
+}
